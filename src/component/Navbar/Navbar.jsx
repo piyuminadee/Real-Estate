@@ -27,6 +27,7 @@ export const Navbar = () => {
              <li><a href='#search'>SEARCH</a></li>
 
            </ul>
+           
            <img   className={styles.menubtn} src={
             menuOpen 
             ?getImageUrl("nav/menuclosedark.png")

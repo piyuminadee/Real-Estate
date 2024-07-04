@@ -8,4 +8,11 @@
 
     /*Fonts*/
     --font-robot: 'Roboto';
+    --body-large-400-font-family: "Inter", Helvetica;
+    --body-large-400-font-size: 20px;
+    --body-large-400-font-style: normal;
+    --body-large-400-font-weight: 400;
+    --body-large-400-letter-spacing: 0px;
+    --body-large-400-line-height: 28px;
+
 }
