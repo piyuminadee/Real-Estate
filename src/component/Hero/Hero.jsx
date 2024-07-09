@@ -9,7 +9,7 @@ export const Hero = () => {
       className={styles.container}
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
-      <div class={styles.overlay}></div>
+      <div className={styles.overlay}></div>
       <div className={styles.topText}>
         <h1>Find Your Dream Home</h1>
         <p>
@@ -28,7 +28,7 @@ export const Hero = () => {
           
 
           <ul className={styles.menu}>
-            <li><label className={styles.drpdwn} for="locations">Locations</label>
+            <li><label className={styles.drpdwn} htmlFor="locations">Locations</label>
 
 <select name="cars" id="cars">
   <option value="volvo">Select Your City</option>
@@ -37,7 +37,7 @@ export const Hero = () => {
   <option value="audi">Audi</option>
 </select></li>
 <li>
-<label className={styles.drpdwn} for="cars">Property Type</label>
+<label className={styles.drpdwn} htmlFor="cars">Property Type</label>
 
             <select name="cars" id="cars">
               <option value="volvo">Select Your Property Type</option>
@@ -47,7 +47,7 @@ export const Hero = () => {
             </select>
 </li>
 <li>
-<label className={styles.drpdwn} for="cars">Rent Range</label>
+<label className={styles.drpdwn} htmlFor="cars">Rent Range</label>
 
 <select name="cars" id="cars">
   <option value="volvo">Select Your Rent Range</option>

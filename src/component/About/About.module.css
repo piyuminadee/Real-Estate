@@ -1,0 +1,68 @@
+@import "../../vars.css";
+
+.container{
+        position: relative;
+        /* //background-color: rgba(12, 12, 12, 0.6); */
+        border-radius: 15px;
+        padding: 50px;
+        margin-top: 53px;
+        z-index: 1;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-family: var(--font-robot);
+}
+
+.title{
+    color : var(--color-text);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-align: center;
+}    
+
+
+
+.card{
+    /* background: linear-gradient(180deg, rgba(59, 77, 129, 0.7) 0%, rgba(59, 77, 129, 0) 100%);
+    background-color: rgba(255, 255, 255, 1); */
+    display: block;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 241px;
+    position: relative;
+    width: 416px;
+    padding: 13px;
+  border-radius: 20px;
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.cardText {
+    margin-top: 10px;
+    position: absolute;
+  bottom: 0;
+  /* background: rgba(0, 0, 0, 0.5); Semi-transparent background */
+  top: 10px;
+  left: 10px;
+  width: 100%;
+  padding: 18px;
+  box-sizing: border-box;
+  margin: 10px;
+  color: var(--color-primary);
+  }
+  
+  .cardText p {
+    margin: 0;
+  }
+
+  .cardContainer{
+    position: relative;
+  margin: 10px;
+  overflow: hidden;
+  flex: 1 1 calc(33.33% - 20px); /* Three items per line */
+  box-sizing: border-box;
+  }
