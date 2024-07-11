@@ -1,0 +1,25 @@
+.container {
+    background-color: rgba(237, 239, 246, 1);
+    border: 70px;
+    padding: 75px;
+}
+.outlook {
+    display: flex;
+    justify-content: space-between; /* This ensures even spacing between items */
+    gap: 20px; /* Adjust the gap between items as needed */
+    flex-wrap: nowrap; /* This prevents wrapping */
+  }
+  
+  .innerlook {
+    flex: 1; /* Ensures each item takes equal space */
+    width: 200px; /* Adjust based on your design needs */
+    box-sizing: border-box;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #fff;
+    gap: 20px;
+
+
+   
+    text-align: center; /* Optional: Center-align text inside items */
+  }
+  
