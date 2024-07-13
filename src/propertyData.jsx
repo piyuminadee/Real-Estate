@@ -1,0 +1,58 @@
+export default [
+  {
+    id: 1,
+    img: "8a0bb495a2d0c9ee9fb430bd7576f3b8.jpeg",
+    share: "ShareNetwork.png",
+    rate: "2,096.00 ft",
+    hart: "Heart.png",
+    text: "92 ALLIUM PLACE, ORLANDO FL 32827",
+    price: "$590,693",
+    icon1: "Car.png",
+    icon2: "Bathtub.png",
+    arrow: "ArrowsOut.png",
+    plusIcon: "Plus.png",
+    cus : "5.png"
+  },
+  {
+    id: 2,
+    img: "2.jpeg",
+    share: "ShareNetwork.png",
+    rate: "2,096.00 ft",
+    hart: "Heart.png",
+    text: "92 ALLIUM PLACE, ORLANDO FL 32827",
+    price: "$590,693",
+    icon1: "Car.png",
+    icon2: "Bathtub.png",
+    plusIcon: "Plus.png",
+    arrow: "ArrowsOut.png",
+    cus : "5.png"
+  },
+  {
+    id: 3,
+    img: "3.jpeg",
+    share: "ShareNetwork.png",
+    rate: "2,096.00 ft",
+    hart: "Heart.png",
+    text: "92 ALLIUM PLACE, ORLANDO FL 32827",
+    price: "$590,693",
+    icon1: "Car.png",
+    icon2: "Bathtub.png",
+    arrow: "ArrowsOut.png",
+    plusIcon: "Plus.png",
+    cus : "5.png"
+  },
+  {
+    id: 4,
+    img: "4.jpeg",
+    share: "ShareNetwork.png",
+    rate: "2,096.00 ft",
+    hart: "Heart.png",
+    text: "92 ALLIUM PLACE, ORLANDO FL 32827",
+    price: "$590,693",
+    icon1: "Car.png",
+    icon2: "Bathtub.png",
+    arrow: "ArrowsOut.png",
+    plusIcon: "Plus.png",
+    cus : "5.png"
+  },
+];

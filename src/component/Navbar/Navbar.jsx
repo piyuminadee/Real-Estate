@@ -37,7 +37,8 @@ export const Navbar = () => {
         </ul>
 
         <img
-          className={styles.menubtn}
+           className={`${styles.menubtn} ${styles.smallImage}`}
+           
           src={
             menuOpen
               ? getImageUrl("nav/menuclosedark.png")

@@ -3,6 +3,13 @@
     border: 70px;
     padding: 75px;
 }
+
+.container h1, p{
+  font-family: var(--body-large-400-font-family);
+  text-align: center;
+}
+
+
 .outlook {
     display: flex;
     justify-content: space-between; /* This ensures even spacing between items */
@@ -23,3 +30,22 @@
     text-align: center; /* Optional: Center-align text inside items */
   }
   
+
+  @media screen and (max-width : 830px) {
+
+    .outlook{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .innerlook{
+      position: relative;
+      margin: 10px;
+      overflow: hidden;
+      flex: 1 1 calc(50% - 20px); 
+      box-sizing: border-box;
+    }
+
+   
+    
+    
+}

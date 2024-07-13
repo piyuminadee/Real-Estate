@@ -21,6 +21,10 @@
 }    
 
 
+.container h2, p{
+  font-family: var(--body-large-400-font-family);
+  text-align: center;
+}
 
 .card{
     /* background: linear-gradient(180deg, rgba(59, 77, 129, 0.7) 0%, rgba(59, 77, 129, 0) 100%);
