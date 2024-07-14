@@ -17,7 +17,7 @@ export const PropertiesDes = (props) => {
               alt={`Img ${propertyItem.id}`}
             />
             <div className={styles.cardContent}>
-             <h2>{propertyItem.text}</h2>
+             <h5>{propertyItem.text}</h5>
              <h4>{propertyItem.price}</h4>
              <ul>
               <li>
@@ -37,14 +37,14 @@ export const PropertiesDes = (props) => {
             </div>
             <div>
             <div>
-            <img className={styles.car} src={`../Property/${propertyItem.cus}`} alt={propertyItem.cus} />
+            <img className={styles.cus} src={`../Property/${propertyItem.cus}`} alt={propertyItem.cus} />
             <p>Jenny Wilson</p>
 
             </div>
             <div>
-            <img className={styles.car} src={`../Property/${propertyItem.share}`} alt={propertyItem.cus} />
-            <img className={styles.car} src={`../Property/${propertyItem.hart}`} alt={propertyItem.cus} />
-            <img className={styles.car} src={`../Property/${propertyItem.plusIcon}`} alt={propertyItem.cus} />
+            <img className={styles.share} src={`../Property/${propertyItem.share}`} alt={propertyItem.cus} />
+            <img className={styles.hart} src={`../Property/${propertyItem.hart}`} alt={propertyItem.cus} />
+            <img className={styles.plusIcon} src={`../Property/${propertyItem.plusIcon}`} alt={propertyItem.cus} />
 
             </div>
             </div>
