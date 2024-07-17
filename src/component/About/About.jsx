@@ -4,7 +4,7 @@ import galleryData from "../../gallaryData.jsx";
 
 export const About = (props) => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="gallery">
       <div className={styles.title}>
         <h2>Properties by Area</h2>
         <p>

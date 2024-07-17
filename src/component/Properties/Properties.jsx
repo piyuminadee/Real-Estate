@@ -4,7 +4,7 @@ import { getImageUrl } from '../../utils';
 
 export const Properties = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} >
       <h1>Properties by Area</h1>
       <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</p>
       <div className={styles.outlook}>

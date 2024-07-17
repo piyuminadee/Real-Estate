@@ -6,6 +6,16 @@
     font-family: var(--font-robot);
 }
 
+.container h1{
+    color: var(--color-topic);
+}
+
+.container p{
+    margin-bottom: 40px; 
+    margin-top: 24px;
+    color: var(--color-gray);
+}
+
 .property{
     display: flex;
     justify-content: space-between; /* This ensures even spacing between items */
@@ -23,6 +33,40 @@
    padding: 10px;
 }
 
+.cardContent h4{
+    color: var(--color-price);
+}
+
+.cardContent ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.cardContent img{
+    padding: -10px ;
+    margin: -2px;
+}
+
+.customer{
+    display: flex;
+    margin: 5px 0;
+}
+
+.customer img{
+    padding: 10px;
+}
+
+.customer p{
+    margin-top: 15px;
+}
+
+.cardContent span{
+    color: var(--color-gray);
+    margin: 10px;
+    padding: 0;
+}
 
 .card{
     width: 100%;
@@ -40,6 +84,33 @@ border-radius: 20px;
 .cardContent ul {
     display: flex;
     gap: 20px;
+}
+
+.btn{
+  background-color: var(--color-price);
+  border-radius: 4px;
+  color: var(--color-primary);
+  padding: 15px;
+
+}
+
+
+.b{
+    text-align: center;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;;
+}
+
+.cardright {
+    padding: 20px 0;
+    
+}
+
+.cardright img{
+    gap: 10px;
+    padding: 0 8px;
 }
 @media screen and (max-width : 830px) {
 

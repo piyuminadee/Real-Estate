@@ -17,17 +17,13 @@ export const Navbar = () => {
             <a href="#home">HOME</a>
           </li>
           <li>
-            <a href="#ouragents">OUR AGENTS</a>
+            <a href="#properties">PROPERTIES</a>
           </li>
-          <li>
-            <a href="#aboutus">ABOUT US</a>
-          </li>
+          
           <li>
             <a href="#gallery">GALLERY</a>
           </li>
-          <li>
-            <a href="#blog">BLOG</a>
-          </li>
+          
           <li>
             <a href="#contact">CONTACT</a>
           </li>

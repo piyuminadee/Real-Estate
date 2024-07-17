@@ -6,6 +6,10 @@
     --color-dark: #0b2447;
     --color-bg: #fff;
     --color-semiText: rgba(54, 58, 61, 1);
+    --color-price: rgba(74, 96, 161, 1);
+    --color-rent: rgba(110, 128, 180, 1);
+    --color-topic: rgba(30, 38, 64, 1);
+    --color-gray: rgba(136, 144, 153, 1);
 
     /*Fonts*/
     --font-robot: 'Roboto';

@@ -22,7 +22,7 @@
 }
 
 .topText > h1{
-    font-family: "Public Sans";
+    font-family: var(--body-large-400-font-family);
     font-weight: 600;
     font-size: 52px;
     padding: 0;
@@ -62,8 +62,10 @@
     margin: 10px;
 }
 .middlebtn > button:hover {
-     background-color: rgb(107, 157, 223);
+     background-color: var(--color-rent);
      font-weight: 600;
+     color: var(--color-primary);
+     font-family: var(--body-large-400-font-family);
 }
 
 .drpdwn{
