@@ -6,6 +6,7 @@ import { Hero } from './component/Hero/Hero'
 import { About } from './component/About/About'
 import { Properties } from './component/Properties/Properties'
 import { PropertiesDes } from './component/PropertiesDes/PropertiesDes'
+import Contact from './component/Contact/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
     <About />
     <Properties/>
     <PropertiesDes/>
+    <Contact />
     </div>
     
     

@@ -33,9 +33,11 @@
    padding: 10px;
 }
 
+
 .cardContent h4{
     color: var(--color-price);
 }
+
 
 .cardContent ul{
     list-style: none;
@@ -87,17 +89,26 @@ border-radius: 20px;
 }
 
 .btn{
-  background-color: var(--color-price);
+  background-color: var(--color-rent);
   border-radius: 4px;
-  color: var(--color-primary);
+  
   padding: 15px;
+  border: none;
+  cursor: pointer;
 
+
+}
+
+.btn :hover {
+  background-color: var(--color-price);
+  cursor: pointer;
 }
 
 
 .b{
     text-align: center;
 }
+
 .bottom {
     display: flex;
     justify-content: space-between;;
@@ -112,6 +123,7 @@ border-radius: 20px;
     gap: 10px;
     padding: 0 8px;
 }
+
 @media screen and (max-width : 830px) {
 
     .property{
